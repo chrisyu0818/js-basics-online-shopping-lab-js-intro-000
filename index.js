@@ -24,13 +24,11 @@ function viewCart() {
     } else {
       var str = 'In your cart, you have ';
 
-      while(i <= cart.length-2)
+      while(i <= cart.length-1)
       {
-        str = str + `${cart[i].itemName} at $${cart[i].itemPrice}, `
+        str = str + `and ${cart[i].itemName} at $${cart[i].itemPrice}, `
         i++;
       }
-      str = str + `and ${cart[i].itemName} at $${cart[i].itemPrice}.`
-
       return str;
     }
   }
