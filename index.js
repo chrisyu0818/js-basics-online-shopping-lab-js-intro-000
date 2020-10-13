@@ -50,7 +50,7 @@ function removeFromCart(item) {
     cart.splice(0,i)
   }
 }return "That item is not in your cart."
-
+}
 function placeOrder(cardNumber) {
   // write your code here
 }
