@@ -26,9 +26,10 @@ function viewCart() {
 
       while(i <= cart.length-1)
       {
-        str = str + `and ${cart[i].itemName} at $${cart[i].itemPrice}, `
+        str = str + `${cart[i].itemName} at $${cart[i].itemPrice}, `
         i++;
       }
+      str = str + `and ${cart[i].itemName} at $${cart[i].itemPrice}.`
       return str;
     }
   }
