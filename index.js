@@ -11,10 +11,10 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
- var price = math.floor(math.random()*101);
- var listItem = {itemName: item, itemPrice: price};
-   cart.push(listItem);
-   return `${item} has been added to your cart.`
+ var price = math.floor(math.random()*101)
+ var listItem = {itemName: item, itemPrice: price}
+ cart.push(listItem)
+ return `${item} has been added to your cart.`
 }
 
 function viewCart() {
